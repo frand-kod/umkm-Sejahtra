@@ -1,0 +1,146 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: quicksand, arial sans-serif;
+    max-width: 720px;
+    align-items: center;
+    margin: auto;
+
+}
+p {
+    color: #080808;
+    font-weight: 500;
+
+}
+/* header */
+.wrapper {
+margin: auto;
+padding: 20px;
+}
+.header-banner{
+    font-size: 20px;
+    background-color: #fdda67 ;
+    border-radius: 6px;
+    padding: 50px;
+}
+.header-banner h1, p{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.hr-header{
+    display: none;
+    background-color:  #292416;
+    height: 3px;
+
+
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #292416;
+}
+
+.content-header-banner.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-banner{
+    justify-content: center;
+    background-color:#fcdc74 ;
+    padding: 5px;
+    border-radius: 6px;
+}
+.main-banner h2{
+    padding: 0 0 0 5px;
+    font-size: 18px;
+    margin: 3px 0 3px 0;
+}
+.content-main-banner p{  
+    font-size: 16px;
+    margin: 12px 0 0 2px;
+    text-align: left;
+}
+/* form */
+form{
+    font: 12px/18px verdana;
+    border: 2px dotted #d8a5a5;
+    padding: 12px;
+    border-radius: 7px;
+}
+legend{
+    font-weight: bold;
+    text-align: 12px;
+    padding: 4px 2px;
+}
+.item-list{
+
+    font-size: 14px;
+    padding: 8px;
+    margin: .5rem;
+    background-color: #fff9e6;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+input{
+    border-radius: 4px;
+    border-color: #ecc132;
+    width: auto;
+}
+button{
+    background-color: #fcdc74;
+    padding: 5px;
+    border-radius: 7px;
+    margin-top: 12px;
+    font: .9em quicksand bold;
+
+}
+/* question */
+.quest{
+    padding: 1em;
+    border-radius:12px;
+    background-color: #ddd;
+}
+.quest p{
+    margin: 8px 0;
+    text-align: left;
+}
+.quest .text-quest .pesan{
+    display: inline-block;
+    margin: 12px auto;
+    min-width: 90%;
+    height: 100px;
+    border: none;
+    font: .76em quicksand;
+    border-radius: 7px;
+
+
+}
+
+/* foorer */
+footer{
+ background-color:#fcdc74;
+    border-radius: 12px;
+    margin: 12px;
+}   
+
+.footer-banner{
+    display: inline-block;
+}
+.content-footer-banner p{
+font-size: 14px;
+text-align: left;
+}
+.copyright{
+    font-size: 10px;
+    margin-top: 50px;
+    text-align: right;
+    padding: 1rem;
+}
